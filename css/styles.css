@@ -1,0 +1,142 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      white-space: nowrap;
+      background-color: teal;
+      background-size: auto 100vh;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 17.6px;
+      height: 100vh;
+      text-align: justify;
+      
+      
+      
+    }
+    
+    @media (min-width:374px) {
+
+      body {
+          
+        font-size: 21.8px;
+
+      }
+      
+      
+    }
+      @media (min-width: 600px) {
+
+        body {
+            
+          font-size: 40px;
+
+  
+        }
+        .site-title{
+        font-size: 110px;
+        }
+      
+    }
+    
+
+    header {
+
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    .menu {
+
+      background-color: aqua ;
+      position: fixed;
+      top: 0;
+      width: 100vw;
+    } 
+
+    .menu ul{
+
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .menu li {
+
+      list-style: none;
+    }
+
+    .menu a{
+
+      display: block;
+      padding: 10px 20px;
+    }
+
+    a {
+
+      color: black;
+      text-decoration:none;
+    }
+    
+    a:hover {
+
+      text-decoration:underline;   
+    }
+
+    .site-title{
+        
+      font-family: 'Monofett', cursive;
+        text-align: center;
+    }
+
+    .site-subtitle{
+        font-size: 10px;
+        font-family: 'Anonymous Pro', monospace;
+        text-align: end;
+    }
+
+    .sobre-title{
+        
+        font-family: 'Megrim', cursive;
+        text-align: center;
+    }
+
+    .post-title{
+
+        font-family: 'Megrim', cursive;
+        text-align: center;
+
+    }
+
+  .slider{
+
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    display: flex;
+    border: black;
+    border-style: solid;
+    width: 15em;
+    height: 15em;
+    
+  }
+  button.slick-prev{
+    font-size: 0px;
+    border: none;
+    z-index: auto;
+    background-color: transparent;
+    position: absolute;
+  }
+
+  button.slick-next{
+    font-size: 0px;
+    border: none;
+    z-index: auto;
+    background-color: transparent;
+    position: absolute;
+  }
+  

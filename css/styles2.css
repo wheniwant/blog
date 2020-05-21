@@ -1,0 +1,110 @@
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+  body {
+      background-color: teal;
+      background-size: auto 100vh;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 17.5px;
+      height: 100vh;
+      text-align: justify;
+      
+      
+      
+    }
+    @media (min-width:400px) {
+
+        body {
+            
+          font-size: 19.5px;
+  
+        }
+        .site-title{
+          font-size: 50px;
+        }
+        
+      }
+
+      @media (min-width: 600px) {
+
+        body {
+            
+          font-size: 40px;
+
+  
+        }
+        .site-title{
+        font-size: 110px;
+        }
+      
+    }
+
+    header {
+
+        height: 40vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    .menu {
+
+      background-color: lemonchiffon;
+      position: fixed;
+      top: 0;
+      width: 100vw;
+    } 
+
+    .menu ul{
+
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .menu li {
+
+      list-style: none;
+    }
+
+    .menu a{
+
+      display: block;
+      padding: 10px 20px;
+    }
+
+    a {
+
+      color: black;
+      text-decoration:none;
+    }
+    
+    a:hover {
+
+      text-decoration: underline;
+      
+         
+    }
+.sobre-title,
+.post-title,
+.clube-title {
+    
+    font-family: 'Monofett', cursive;
+}
+
+.grid-post1,
+.grid-sobre {
+font-size: 17px;
+text-align: left;
+margin-left: 2px;
+margin-right: 2px;
+}
+
+.post1-title{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 48px;
+    text-align: center;
+}
